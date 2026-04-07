@@ -2,23 +2,18 @@ import { Cpu, Brain, Database, Cloud, Shield, Zap } from 'lucide-react';
 
 export function Modulo7() {
   return (
-    <div className="w-full h-full flex flex-col overflow-hidden">
-      <div className="flex-shrink-0 p-4 sm:p-6 md:p-8 lg:p-12 pb-4">
-        <div className="max-w-7xl mx-auto">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-4 sm:mb-6 text-white flex items-center gap-2 sm:gap-3">
-            <Cpu className="size-6 sm:size-8 lg:size-10 text-cyan-400 flex-shrink-0" />
-            <span className="leading-tight">Módulo 7: Tecnología e IA</span>
-          </h1>
+    <div className="w-full h-full overflow-auto p-4 sm:p-6 md:p-8 lg:p-12">
+      <div className="max-w-7xl mx-auto">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-6 sm:mb-8 text-white flex items-center gap-2 sm:gap-3">
+          <Cpu className="size-6 sm:size-8 lg:size-10 text-cyan-400 flex-shrink-0" />
+          <span className="leading-tight">Módulo 7: Tecnología e IA</span>
+        </h1>
 
-          <p className="text-slate-200 text-base sm:text-lg leading-relaxed">
-            TripFlow es, por definición, una <span className="text-cyan-300">empresa tecnológica</span>. La tecnología es tanto el producto como la columna vertebral de su operación.
-          </p>
-        </div>
-      </div>
+        <p className="text-slate-200 text-base sm:text-lg mb-6 sm:mb-8 leading-relaxed">
+          TripFlow es, por definición, una <span className="text-cyan-300">empresa tecnológica</span>. La tecnología es tanto el producto como la columna vertebral de su operación.
+        </p>
 
-      <div className="flex-1 overflow-y-auto overflow-x-hidden p-4 sm:p-6 md:p-8 lg:p-12 pt-0">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid gap-4 sm:gap-6">
+        <div className="grid gap-4 sm:gap-6">
           {/* IA como diferenciador */}
           <div className="bg-gradient-to-br from-purple-600/30 to-pink-600/30 backdrop-blur-sm rounded-xl p-6 border border-purple-400/40">
             <h2 className="text-2xl text-white mb-4 flex items-center gap-2">
