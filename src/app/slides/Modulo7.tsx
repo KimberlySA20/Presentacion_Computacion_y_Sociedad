@@ -238,7 +238,6 @@ export function Modulo7() {
               <h3 className="text-cyan-300 mb-2">💬 Comunicación</h3>
               <p className="text-slate-200 text-sm">Microsoft Teams + Slack + Notion para colaboración</p>
             </div>
-            </div>
           </div>
         </div>
       </div>
